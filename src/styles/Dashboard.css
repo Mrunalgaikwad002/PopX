@@ -1,0 +1,94 @@
+.dashboard-container {
+  background: #fafbfc;
+  min-height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 0 1px #eee;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.dashboard-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  padding: 24px 20px 0 20px;
+  margin-bottom: 0;
+}
+
+.dashboard-profile-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 20px 0 20px;
+}
+
+.dashboard-avatar-wrapper {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.dashboard-avatar {
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.dashboard-camera-btn {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  background: #7B61FF !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 0 !important;
+  box-shadow: 0 2px 8px rgba(123,97,255,0.15);
+  z-index: 2;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.dashboard-profile-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.dashboard-profile-email {
+  font-size: 14px;
+  color: #888;
+  font-weight: 400;
+}
+
+.dashboard-description {
+  font-size: 14px;
+  color: #444;
+  margin: 20px 20px 0 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.dashboard-divider {
+  border-bottom: 2px dashed #e0e0e0;
+  margin: 20px 0 0 0;
+}
+
+.dashboard-content-placeholder {
+  min-height: 400px;
+  background: #fafbfc;
+} 
